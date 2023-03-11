@@ -1,0 +1,15 @@
+Program skompiluj i uruchom przy pomocy narzędzi javac oraz java
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+    }
+} 
+
+Ten program napisany jest w języku Java i wypisuje na ekranie napis "Hello world!". Aby skompilować i uruchomić ten program, należy postępować zgodnie z poniższymi krokami:
+
+Uruchom wiersz poleceń (command prompt) lub terminal.
+1. Przejdź do folderu, w którym znajduje się plik z kodem programu Main.java.
+2. Skompiluj kod programu wpisując polecenie "javac Main.java" i naciśnij klawisz Enter. Powinien powstać plik o nazwie "Main.class".
+3. Uruchom program wpisując polecenie "java Main" i naciśnij klawisz Enter. Na ekranie powinien pojawić się napis "Hello world!".
+4. Pamiętaj, że w celu skompilowania i uruchomienia tego programu, musisz mieć zainstalowany pakiet JDK (Java Development Kit) na swoim komputerze.
