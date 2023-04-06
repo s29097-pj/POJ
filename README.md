@@ -16,7 +16,8 @@ Programowanie obiektowe w Javie
 **2.** Warunkiem zaliczenia przedmiotu jest uzyskanie **minimum 50% punktów z każdej części**: 
    - a) 25 p. za krótsze zadania; 
    - b) 25 p. za projekt. 
-   Np. Student, który uzyska 3 punkty za krótsze zadania i 50 punktów za projekt (łącznie 53 punkty) nie zalicza przedmiotu, ponieważ część a) jest niezaliczona.
+   
+Np. Student, który uzyska 3 punkty za krótsze zadania i 50 punktów za projekt (łącznie 53 punkty) nie zalicza przedmiotu, ponieważ część a) jest niezaliczona.
 
 **3.** Przewidziane są punkty bonusowe (spoza puli punktów) – przyznawane za zadania (lub rozwiązania) dodatkowe oraz aktywności wskazane przez Prowadzącą.
 
