@@ -119,7 +119,7 @@ class Circle {
 
             // wyświetlanie na ekranie wartości kół
             // podkreślenie (\u001B[4m)
-            System.out.println(colorCode + "\n\u001B[4mKoło nr " + (i + 1) + " przyjmuje wartości: " + Circle.ConsoleColors.RESET);
+            System.out.println(colorCode + "\n\u001B[4mKoło nr " + (i + 2) + " przyjmuje wartości: " + Circle.ConsoleColors.RESET);
             System.out.println(colorCode + "Promień = " + circle.getRadius() + Circle.ConsoleColors.RESET);
             System.out.println(colorCode + "Powierzchnia = " + circle.getArea() + Circle.ConsoleColors.RESET);
             System.out.print(colorCode + "Kolor = " + Circle.ConsoleColors.RESET);
