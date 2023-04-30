@@ -7,26 +7,26 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 - Zaimplementuj te klasy zgodnie z diagramem.
 - Następnie zaimplementuj klasę `TestCircleAndCylinder`, w której przetestujesz konstruktory i metody z klas Circle i Cylinder.
 
-# Circle
+|## Circle|
+|---------|
 
----
+|## Właściwości|
+|--------------|
 
-## Właściwości
-
-| Nazwa    | Typ     | Opis                         | Wartość domyślna |
-| -------- | ------- | ----------------------------| ---------------- |
-| radius   | double  | Promień koła                 | 1.0              |
-| color    | String  | Kolor koła                   | "blue"           |
+| Nazwa i Typ     | Opis                         | Wartość domyślna |
+| --------------- | -----------------------------| ---------------- |
+| radius:double  | Promień koła                 | 1.0              |
+| color:String   | Kolor koła                   | "blue"           |
 
 ## Metody
 
-| Nazwa              | Typ zwracany | Opis                                       |
-| ------------------ | ------------ | ------------------------------------------ |
-| `Circle()`         | void         | Konstruktor bezparametrowy                 |
-| `Circle(radius)`   | void         | Konstruktor z parametrem radius            |
-| `getRadius()`      | double       | Zwraca wartość promienia koła              |
-| `getArea()`        | double       | Zwraca wartość powierzchni koła            |
-| `toString()`       | String       | Zwraca tekstową reprezentację obiektu Koło |
+| Nazwa i Typ zwracany | Opis|
+| ------------------ --| ---------------------------------------------- |
+| `Circle()`           | Konstruktor bezparametrowy                     |
+| `Circle(radius:double)`  | Konstruktor z parametrem radius            |
+| `getRadius():double`     | Zwraca wartość promienia koła              |
+| `getArea():double`       | Zwraca wartość powierzchni koła            |
+| `toString():String`      | Zwraca tekstową reprezentację obiektu Koło |
 
 
 *superclass*
@@ -36,26 +36,26 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 *subclass*
 
 
-# Cylinder
+|## Cylinder|
+|-----------|
 
----
-
-## Właściwości
+|## Właściwości|
+|--------------|
 
 | Nazwa    | Typ     | Opis                   | Wartość domyślna |
 | -------- | ------- | ----------------------| ---------------- |
-| height   | double  | Wysokość walca         | 4.0              |
-| radius   | double  | Promień podstawy walca | -                |
+| height:double  | Wysokość walca         | 4.0              |
+| radius:double  | Promień podstawy walca | -                |
 
 ## Metody
 
-| Nazwa                                | Typ zwracany | Opis                                          |
-| ------------------------------------ | ------------ | --------------------------------------------- |
-| `Cylinder()`                        | void         | Konstruktor bezparametrowy                    |
-| `Cylinder(radius)`                  | void         | Konstruktor z parametrem radius               |
-| `Cylinder(radius, height)`          | void         | Konstruktor z parametrami radius i height     |
-| `getHeight()`                       | double       | Zwraca wartość wysokości walca                |
-| `getVolume()`                        | double       | Zwraca wartość objętości walca                |
+| Nazwa                               	| Opis                                	|
+| ------------------------------------ 	| -----------------------------------------|
+| `Cylinder()`      				| Konstruktor bezparametrowy         	 |
+| `Cylinder(radius:double)`			| Konstruktor z parametrem radius     	|
+| `Cylinder(radius:double, height:double)`| Konstruktor z parametrami radius i height|
+| `getHeight():double`       			| Zwraca wartość wysokości walca      |
+| `getVolume():double`      			| Zwraca wartość objętości walca      |
 
 
 ## Zadanie 4.2
@@ -108,37 +108,37 @@ Utwórz klasę `AutoShop`, która zawiera metodę main(). W ramach tej metody ma
 - color = Red;
 - length = 10 m;
 
-- sale price = $18000,00 PLN$__
+- sale price = 18000,00 PLN__\__
 ```
 
 ```
-<span style="color:blue">FORD:</span>
+FORD
 - speed = 156 km/h;
 - regularPrice = 4452,00 PLN;
 - color = Blue;
 - year 2005;
 - manufacturerDiscount = 10 %;
 
-- sale price = $4442,00 PLN$__
+- sale price = 4442,00 PLN__\__
 ```
 
 ```
-<span style="color:yellow">FORD:</span>
+FORD
 - speed = 155 km/h;
 - regularPrice = 5000,00 PLN;
 - color = Yellow;
 - year = 1998;
 - manufacturerDiscount = 5 %;
 
-- sale price = $4995,00 PLN$__
+- sale price = 4995,00 PLN__\__
 ```
 
 ```
-<span style="color:green">TRUCK:</span>
+TRUCK
 - speed = 200 km/h;
 - regularPrice = 500000,00 PLN;
 - color = Green;
 - weight = 5000 kg;
 
-- sale price = $450000,00 PLN$__
+- sale price = 450000,00 PLN__\__
 ```
