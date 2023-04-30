@@ -8,17 +8,17 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 - Następnie zaimplementuj klasę `TestCircleAndCylinder`, w której przetestujesz konstruktory i metody z klas Circle i Cylinder.
 
 |**Circle**|
-|------|
+|----------|
 
-|Właściwości|
-|--------------|
+Właściwości
+
 
 | Nazwa i Typ     | Opis                         | Wartość domyślna |
 | --------------- | -----------------------------| ---------------- |
-| radius:double  | Promień koła                 | 1.0              |
-| color:String   | Kolor koła                   | "blue"           |
+| `radius:double`  | Promień koła                 | 1.0              |
+| `color:String`   | Kolor koła                   | "blue"           |
 
-|Metody|
+Metody
 
 | Nazwa i Typ zwracany     | Opis							|
 | -------------------------| -------------------------------------------|
@@ -37,18 +37,16 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 
 
 |**Cylinder**|
-|-----------|
+|------------|
 
-|Właściwości|
-|--------------|
+Właściwości
 
 | Nazwa    | Typ     | Opis                   | Wartość domyślna |
 | -------- | ------- | ----------------------| ---------------- |
 | height:double  | Wysokość walca         | 4.0              |
 | radius:double  | Promień podstawy walca | -                |
 
-|Metody|
-|------|
+Metody
 
 | Nazwa                               	| Opis                                	|
 | ------------------------------------ 	| -----------------------------------------|
@@ -109,7 +107,8 @@ Utwórz klasę `AutoShop`, która zawiera metodę main(). W ramach tej metody ma
 - color = Red;
 - length = 10 m;
 
-- __sale price = 18000,00 PLN__
+- sale price = 18000,00 PLN
+____________________________
 ```
 
 ```
@@ -120,7 +119,8 @@ FORD
 - year 2005;
 - manufacturerDiscount = 10 %;
 
-- __sale price = 4442,00 PLN__
+- sale price = 4442,00 PLN
+___________________________
 ```
 
 ```
@@ -131,7 +131,8 @@ FORD
 - year = 1998;
 - manufacturerDiscount = 5 %;
 
-- __sale price = 4995,00 PLN__
+- sale price = 4995,00 PLN
+___________________________
 ```
 
 ```
@@ -141,5 +142,6 @@ TRUCK
 - color = Green;
 - weight = 5000 kg;
 
-- __sale price = 450000,00 PLN__
+- sale price = 450000,00 PLN
+____________________________
 ```
