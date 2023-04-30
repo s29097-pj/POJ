@@ -7,32 +7,55 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 - Zaimplementuj te klasy zgodnie z diagramem.
 - Następnie zaimplementuj klasę `TestCircleAndCylinder`, w której przetestujesz konstruktory i metody z klas Circle i Cylinder.
 
-|**Circle**            |
+# Circle
 
-|-radius:double = 1.0  |
-|-color:String = "blue"|
+---
 
-|+Circle()             |
-|+Circle(radius:double)|
-|+getRadius():double   |
-|+getArea():double     |
-|+toStrig():String     |
+## Właściwości
+
+| Nazwa    | Typ     | Opis                         | Wartość domyślna |
+| -------- | ------- | ----------------------------| ---------------- |
+| radius   | double  | Promień koła                 | 1.0              |
+| color    | String  | Kolor koła                   | "blue"           |
+
+## Metody
+
+| Nazwa              | Typ zwracany | Opis                                       |
+| ------------------ | ------------ | ------------------------------------------ |
+| `Circle()`         | void         | Konstruktor bezparametrowy                 |
+| `Circle(radius)`   | void         | Konstruktor z parametrem radius            |
+| `getRadius()`      | double       | Zwraca wartość promienia koła              |
+| `getArea()`        | double       | Zwraca wartość powierzchni koła            |
+| `toString()`       | String       | Zwraca tekstową reprezentację obiektu Koło |
+
 
 *superclass*
 
-^
+&#x2191;
 
 *subclass*
 
-|**Cylinder**        |
 
-|-height:double = 4.0|
+# Cylinder
 
-|+Cylinder()         |
-|+Cylinder(radius:double)|
-|+Cylinder(radius:double, height:double)|
-|+getHeight():double|
-|+getVolume():double|
+---
+
+## Właściwości
+
+| Nazwa    | Typ     | Opis                   | Wartość domyślna |
+| -------- | ------- | ----------------------| ---------------- |
+| height   | double  | Wysokość walca         | 4.0              |
+| radius   | double  | Promień podstawy walca | -                |
+
+## Metody
+
+| Nazwa                                | Typ zwracany | Opis                                          |
+| ------------------------------------ | ------------ | --------------------------------------------- |
+| `Cylinder()`                        | void         | Konstruktor bezparametrowy                    |
+| `Cylinder(radius)`                  | void         | Konstruktor z parametrem radius               |
+| `Cylinder(radius, height)`          | void         | Konstruktor z parametrami radius i height     |
+| `getHeight()`                       | double       | Zwraca wartość wysokości walca                |
+| `getVolume()`                        | double       | Zwraca wartość objętości walca                |
 
 
 ## Zadanie 4.2
@@ -78,45 +101,44 @@ Utwórz klasę `AutoShop`, która zawiera metodę main(). W ramach tej metody ma
 
 > mój przykładowy output:
 
-```kolor czerwony "\u001B[31m"
-SEDAN
+```
+<span style="color:red">SEDAN:</span>
 - speed = 160 km/h;
 - regularPrice = 20000,00 PLN;
 - color = Red;
 - length = 10 m;
 
-- sale price = 18000,00 PLN "\u001B[4m"
+- sale price = $18000,00 PLN$__
 ```
 
-```kolor niebieski "\u001B[34m"
-FORD:
+```
+<span style="color:blue">FORD:</span>
 - speed = 156 km/h;
 - regularPrice = 4452,00 PLN;
 - color = Blue;
 - year 2005;
 - manufacturerDiscount = 10 %;
 
-- sale price = 4442,00 PLN "\u001B[4m"
+- sale price = $4442,00 PLN$__
 ```
 
-```kolor żółty "\u001B[33m"
-FORD
+```
+<span style="color:yellow">FORD:</span>
 - speed = 155 km/h;
 - regularPrice = 5000,00 PLN;
 - color = Yellow;
 - year = 1998;
 - manufacturerDiscount = 5 %;
 
-- sale price = 4995,00 PLN "\u001B[4m"
+- sale price = $4995,00 PLN$__
 ```
 
-```kolor zielony "\u001B[32m"
-TRUCK:
+```
+<span style="color:green">TRUCK:</span>
 - speed = 200 km/h;
 - regularPrice = 500000,00 PLN;
 - color = Green;
 - weight = 5000 kg;
 
-- sale price = 450000,00 PLN "\u001B[4m"
+- sale price = $450000,00 PLN$__
 ```
-
