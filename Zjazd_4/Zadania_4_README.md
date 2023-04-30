@@ -8,16 +8,16 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 - Następnie zaimplementuj klasę `TestCircleAndCylinder`, w której przetestujesz konstruktory i metody z klas Circle i Cylinder.
 
 |**Circle**            |
-|----------------------|
+
 |-radius:double = 1.0  |
 |-color:String = "blue"|
-|----------------------|
+
 |+Circle()             |
 |+Circle(radius:double)|
 |+getRadius():double   |
 |+getArea():double     |
 |+toStrig():String     |
-|----------------------|
+
 *superclass*
 
 ^
@@ -25,15 +25,14 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 *subclass*
 
 |**Cylinder**        |
-|--------------------|
+
 |-height:double = 4.0|
-|--------------------|
+
 |+Cylinder()         |
 |+Cylinder(radius:double)|
 |+Cylinder(radius:double, height:double)|
 |+getHeight():double|
 |+getVolume():double|
-|-------------------|
 
 
 ## Zadanie 4.2
@@ -86,8 +85,7 @@ SEDAN
 - color = Red;
 - length = 10 m;
 
-- sale price = 18000,00 PLN
----- // podkreślenie "\u001B[4m"
+- sale price = 18000,00 PLN "\u001B[4m"
 ```
 
 ```kolor niebieski "\u001B[34m"
@@ -98,8 +96,7 @@ FORD:
 - year 2005;
 - manufacturerDiscount = 10 %;
 
-- sale price = 4442,00 PLN
----- // podkreślenie "\u001B[4m"
+- sale price = 4442,00 PLN "\u001B[4m"
 ```
 
 ```kolor żółty "\u001B[33m"
@@ -110,8 +107,7 @@ FORD
 - year = 1998;
 - manufacturerDiscount = 5 %;
 
-- sale price = 4995,00 PLN
----- // podkreślenie "\u001B[4m"
+- sale price = 4995,00 PLN "\u001B[4m"
 ```
 
 ```kolor zielony "\u001B[32m"
@@ -121,7 +117,6 @@ TRUCK:
 - color = Green;
 - weight = 5000 kg;
 
-- sale price = 450000,00 PLN
----- // podkreślenie "\u001B[4m"
+- sale price = 450000,00 PLN "\u001B[4m"
 ```
 
