@@ -7,10 +7,10 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 - Zaimplementuj te klasy zgodnie z diagramem.
 - Następnie zaimplementuj klasę `TestCircleAndCylinder`, w której przetestujesz konstruktory i metody z klas Circle i Cylinder.
 
-|## Circle|
-|---------|
+|**Circle**|
+|------|
 
-|## Właściwości|
+|Właściwości|
 |--------------|
 
 | Nazwa i Typ     | Opis                         | Wartość domyślna |
@@ -18,11 +18,11 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 | radius:double  | Promień koła                 | 1.0              |
 | color:String   | Kolor koła                   | "blue"           |
 
-## Metody
+|Metody|
 
-| Nazwa i Typ zwracany | Opis|
-| ------------------ --| ---------------------------------------------- |
-| `Circle()`           | Konstruktor bezparametrowy                     |
+| Nazwa i Typ zwracany     | Opis							|
+| -------------------------| -------------------------------------------|
+| `Circle()`               | Konstruktor bezparametrowy                 |
 | `Circle(radius:double)`  | Konstruktor z parametrem radius            |
 | `getRadius():double`     | Zwraca wartość promienia koła              |
 | `getArea():double`       | Zwraca wartość powierzchni koła            |
@@ -36,10 +36,10 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 *subclass*
 
 
-|## Cylinder|
+|**Cylinder**|
 |-----------|
 
-|## Właściwości|
+|Właściwości|
 |--------------|
 
 | Nazwa    | Typ     | Opis                   | Wartość domyślna |
@@ -47,7 +47,8 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 | height:double  | Wysokość walca         | 4.0              |
 | radius:double  | Promień podstawy walca | -                |
 
-## Metody
+|Metody|
+|------|
 
 | Nazwa                               	| Opis                                	|
 | ------------------------------------ 	| -----------------------------------------|
@@ -108,7 +109,7 @@ Utwórz klasę `AutoShop`, która zawiera metodę main(). W ramach tej metody ma
 - color = Red;
 - length = 10 m;
 
-- sale price = 18000,00 PLN__\__
+- __sale price = 18000,00 PLN__
 ```
 
 ```
@@ -119,7 +120,7 @@ FORD
 - year 2005;
 - manufacturerDiscount = 10 %;
 
-- sale price = 4442,00 PLN__\__
+- __sale price = 4442,00 PLN__
 ```
 
 ```
@@ -130,7 +131,7 @@ FORD
 - year = 1998;
 - manufacturerDiscount = 5 %;
 
-- sale price = 4995,00 PLN__\__
+- __sale price = 4995,00 PLN__
 ```
 
 ```
@@ -140,5 +141,5 @@ TRUCK
 - color = Green;
 - weight = 5000 kg;
 
-- sale price = 450000,00 PLN__\__
+- __sale price = 450000,00 PLN__
 ```
