@@ -12,9 +12,8 @@ Klasy `Circle` i `Cylinder` zaprojektowano tak, jak przedstawiono na diagramie.
 
 Właściwości
 
-
-| Nazwa i Typ     | Opis                         | Wartość domyślna |
-| --------------- | -----------------------------| ---------------- |
+| Nazwa i Typ      | Opis                         | Wartość domyślna |
+| -----------------|------------------------------| ---------------- |
 | `radius:double`  | Promień koła                 | 1.0              |
 | `color:String`   | Kolor koła                   | "blue"           |
 
@@ -41,20 +40,20 @@ Metody
 
 Właściwości
 
-| Nazwa    | Typ     | Opis                   | Wartość domyślna |
-| -------- | ------- | ----------------------| ---------------- |
-| height:double  | Wysokość walca         | 4.0              |
-| radius:double  | Promień podstawy walca | -                |
+| Nazwa i Typ      | Opis                   | Wartość domyślna |
+| ---------------- | -----------------------| ---------------- |
+| `height:double`  | Wysokość walca         | 4.0              |
+| `radius:double`  | Promień podstawy walca | -                |
 
 Metody
 
-| Nazwa                               	| Opis                                	|
-| ------------------------------------ 	| -----------------------------------------|
-| `Cylinder()`      				| Konstruktor bezparametrowy         	 |
-| `Cylinder(radius:double)`			| Konstruktor z parametrem radius     	|
-| `Cylinder(radius:double, height:double)`| Konstruktor z parametrami radius i height|
-| `getHeight():double`       			| Zwraca wartość wysokości walca      |
-| `getVolume():double`      			| Zwraca wartość objętości walca      |
+| Nazwa                               	| Opis                                	  |
+| ------------------------------------ 	| ------------------------------------------|
+| `Cylinder()`      				| Konstruktor bezparametrowy         	  |
+| `Cylinder(radius:double)`			| Konstruktor z parametrem radius     	  |
+| `Cylinder(radius:double, height:double)`| Konstruktor z parametrami radius i height |
+| `getHeight():double`       			| Zwraca wartość wysokości walca      	  |
+| `getVolume():double`      			| Zwraca wartość objętości walca      	  |
 
 
 ## Zadanie 4.2
@@ -101,7 +100,7 @@ Utwórz klasę `AutoShop`, która zawiera metodę main(). W ramach tej metody ma
 > mój przykładowy output:
 
 ```
-<span style="color:red">SEDAN:</span>
+SEDAN
 - speed = 160 km/h;
 - regularPrice = 20000,00 PLN;
 - color = Red;
