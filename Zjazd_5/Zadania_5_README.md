@@ -6,7 +6,8 @@ Utwórz prosty program, w którym utworzysz obiekt typu `ArrayList`, przechowuj�
 
 Wypisz na konsolę liczbę oraz numer indeksu, pod którym dana liczba się znajduje oraz oblicz i wypisz czas całej operacji.
 
-```output
+> output:
+```
 Liczba 2 znajduje się pod indeksem 0
 ...
 Liczba 100 znajduje się pod indeksem 49
@@ -26,7 +27,7 @@ Na diagramie przedstawiono interfejs `Movable` i klasę `MovablePoint`. Zaimplem
 |+moveDown():void      |
 |+moveLeft():void      |
 |+moveRight():void     |
-|----------------------|
+
 
 &#x2191;
 
@@ -43,9 +44,9 @@ Na diagramie przedstawiono interfejs `Movable` i klasę `MovablePoint`. Zaimplem
 |+moveDown():void          |
 |+moveLeft():void          |
 |+moveRight():void         |
-|--------------------------|
 
-```output
+> output:
+```
 MovablePoint at (0, 0)
 MovablePoint at (1, -1)
 ```
@@ -59,7 +60,8 @@ Napisz program Coffee, w którym:
 - [d] użyjesz pętli `foreach`, aby przejść przez wszystkie elementy listy i wypiszesz je dużymi literami na konsolę;
 - [e] korzystając z pętli `for`, wypisz na konsolę po 4 pierwsze litery z każdego wyrazu, przechowywanego zaimplementowanej liście.
 
-```przykładowy output
+> output:
+```
 Lista kaw:
 espresso
 latte
@@ -102,7 +104,8 @@ Stwórz program dla książek, który będzie zawierał:
 - Uwaga! Pamiętaj o zaimplementowaniu konstruktorów oraz getterów i setterów.
 
 
-```przykładowy output
+> mój przykładowy output:
+```
 Lista książek posortowana po tytule:
 Czy androidy marzą o elektrycznych owcach - Philip K. Dick
 Mistrz i Małgorzata - Michaił Bułhakow
