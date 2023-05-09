@@ -23,7 +23,7 @@ Na diagramie przedstawiono interfejs `Movable` i klasę `MovablePoint`. Zaimplem
 |`<<interface>>`         |
 |------------------------|
 |**Movable**             |
-|------------------------|
+|				 |
 |`+moveUp():void`        |
 |`+moveDown():void`      |
 |`+moveLeft():void`      |
