@@ -110,7 +110,7 @@ public class Zadanie_5_04 {
         ebooki.add(new Ebook("Mały Książę", "Antoine de Saint-Exupéry", 100, 50, "pdf"));
         ebooki.add(new Ebook("Podróże Guliwera", "Jonathan Swift", 320, 120, "epub"));
 
-        // Sortujemy książki po tytule za pomocą lambda wyrażenia
+        // Sortujemy książki po tytule za pomocą wyrażenia lambda
         ksiazki.sort(Comparator.comparing(Ksiazka::getTytul));
 
         // Wyświetlamy posortowaną listę książek na ekranie
