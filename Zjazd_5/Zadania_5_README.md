@@ -22,7 +22,7 @@ Na diagramie przedstawiono interfejs `Movable` i klasę `MovablePoint`. Zaimplem
 
 |`<<interface>>`         |
 |**Movable**             |
-|________________________|
+|------------------------|
 |`+moveUp():void`        |
 |`+moveDown():void`      |
 |`+moveLeft():void`      |
@@ -37,7 +37,7 @@ Na diagramie przedstawiono interfejs `Movable` i klasę `MovablePoint`. Zaimplem
 |----------------------------|
 |`-x:int`                    |
 |`-y:int`                    |
-|____________________________|
+|				     |
 |`+MovablePoint(x:int,y:int)`|
 |`+toString():String`        |
 |`+moveUp():void`            |
