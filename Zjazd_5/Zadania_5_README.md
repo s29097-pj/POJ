@@ -20,30 +20,30 @@ Czas całej operacji: 30 ms
 Na diagramie przedstawiono interfejs `Movable` i klasę `MovablePoint`. Zaimplementuj je zgodnie z diagramem. Następnie zaimplementuj klasę `TestMovable`, w której przetestujesz zaimplementowane konstruktory i metody.
 
 
-|<<interface>>         |
-|**Movable**           |
-|----------------------|
-|+moveUp():void        |
-|+moveDown():void      |
-|+moveLeft():void      |
-|+moveRight():void     |
+|`<<interface>>`         |
+|**Movable**             |
+|________________________|
+|`+moveUp():void`        |
+|`+moveDown():void`      |
+|`+moveLeft():void`      |
+|`+moveRight():void`     |
 
 
 &#x2191;
 
 *implements*
 
-|**MovablePoint**          |
-|--------------------------|
-|-x:int                    |
-|-y:int                    |
-|--------------------------|
-|+MovablePoint(x:int,y:int)|
-|+toString():String        |
-|+moveUp():void            |
-|+moveDown():void          |
-|+moveLeft():void          |
-|+moveRight():void         |
+|**MovablePoint**            |
+|----------------------------|
+|`-x:int`                    |
+|`-y:int`                    |
+|____________________________|
+|`+MovablePoint(x:int,y:int)`|
+|`+toString():String`        |
+|`+moveUp():void`            |
+|`+moveDown():void`          |
+|`+moveLeft():void`          |
+|`+moveRight():void`         |
 
 > output:
 ```
