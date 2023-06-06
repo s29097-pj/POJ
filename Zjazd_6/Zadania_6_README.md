@@ -10,7 +10,7 @@ Wypisz na konsolę:
 Listę możesz wypełnić wybranymi przez siebie wartościami.
 
 > output:
-```shell
+```
 Oryginalna lista:
 czarny, czerwony, zielony, żółty, niebieski, purpurowy, turkusowy,
 
@@ -26,7 +26,7 @@ czerwony, zielony, żółty, niebieski, purpurowy,
 Napisz program, w którym utworzysz zbiór `HashSet<String>`, wypełnisz go dowolnymi wartościami, wypiszesz na konsolę, a następnie przekonwertujesz na zwykłą tablicę i wypiszesz jej zawartość na konsolę.
 
 > output
-```shell
+```
 Oryginalny zbiór:
 czerwony, zielony, purpurowy, turkusowy, czarny, niebieski, żółty,
 
@@ -47,7 +47,7 @@ Napisz program w Javie, w którym zaimplementujesz obiekt typu `TreeSet` – pos
  - [h] porównaj ze sobą elementy przechowywane w dwóch drzewach binarnych tree1 i tree2.
 
 > output:
-```shell
+```
 Posortowane drzewo binarne:
 
 a) Drzewo zawierające pięć nazw kolorów:
@@ -110,7 +110,7 @@ Napisz program, który pobiera od użytkownika liczbę z zakresu od 1 do 12 i w 
 - Pamiętaj, by zaprojektować program tak, by informował użytkownika, jeśli wskaże zły numer.
 
 > output:
-```shell
+```
 MIESIĄCE
 Wpisz numer od 1 do 12 (0 aby zakończyć): 5
 
