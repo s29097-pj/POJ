@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
-class Zadanie_06_01 {
+class Zadanie_6_01 {
     public static void main(String[] args) {
 
         // Mapowanie nazwy koloru na kod ANSI
