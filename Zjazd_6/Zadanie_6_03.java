@@ -1,6 +1,6 @@
 import java.util.TreeSet;
 
-class Zadanie_06_03 {
+class Zadanie_6_03 {
     public static void main(String[] args) {
         // Tworzenie TreeSet
         TreeSet<String> tree1 = new TreeSet<>();
